@@ -2,7 +2,6 @@
 git引入其它工程示例：
 git-test1 引用 git-test
 ```
-git-test1 引用 git-test:
  git submodule add https://github.com/carlvine500/git-test.git subtree-git-test
 //之后所有子模块修改执行：
  git submodule update --recursive --remote
